@@ -22,3 +22,4 @@ obj-$(CONFIG_TEGRA_HV_MANAGER)	+= virt/tegra/
 obj-y	+= gpu/
 
 obj- += lindroid-drm/
+obj-$(CONFIG_DRM_LINDROID_EVDI) += lindroid-drm/
