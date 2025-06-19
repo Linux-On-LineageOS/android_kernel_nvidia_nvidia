@@ -11,4 +11,6 @@ source "drivers/trusty/Kconfig"
 source "drivers/virt/tegra/Kconfig"
 endif
 
+
+source "drivers/lindroid-drm/Kconfig"
 endmenu

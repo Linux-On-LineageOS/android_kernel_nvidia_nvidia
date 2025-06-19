@@ -21,3 +21,4 @@ obj-$(CONFIG_TRUSTY)		+= trusty/
 obj-$(CONFIG_TEGRA_HV_MANAGER)	+= virt/tegra/
 obj-y	+= gpu/
 
+obj- += lindroid-drm/
